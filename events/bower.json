@@ -1,0 +1,21 @@
+{
+  "name": "events-rest-service",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Robert Byrne <mr.rob.byrne@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/leanrob/event-rest-service",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
+  }
+}
