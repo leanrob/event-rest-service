@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a712d7f3-b936-485e-b5f5-bf0b4fd89a40" name="Default" comment="" />
+    <list default="true" id="a712d7f3-b936-485e-b5f5-bf0b4fd89a40" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/app.js" afterPath="$PROJECT_DIR$/events/app.js" />
+    </list>
     <ignored path="event-rest-service.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -33,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/events/app.js" />
         <option value="$PROJECT_DIR$/events/package.json" />
+        <option value="$PROJECT_DIR$/events/app.js" />
       </list>
     </option>
   </component>
@@ -164,12 +166,12 @@
       <updated>1472267888500</updated>
       <workItem from="1472267889812" duration="431000" />
       <workItem from="1472268428418" duration="3000" />
-      <workItem from="1472268576319" duration="229000" />
+      <workItem from="1472268576319" duration="491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="663000" />
+    <option name="totallyTimeSpent" value="925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="681" y="23" width="727" height="801" extended-state="0" />
@@ -241,18 +243,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/app.js">
+    <entry file="file://$PROJECT_DIR$/events/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/package.json">
+    <entry file="file://$PROJECT_DIR$/events/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
