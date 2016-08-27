@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-var port = 1337;
+var port = process.env.PORT || 1337;
 
 // Node will check the public and src views directories before all else...
 app.use(express.static('public'));
