@@ -2,16 +2,22 @@ var express = require('express');
 
 var app = express();
 
-var port = process.env.PORT || 1337;
+var port = Number(process.env.PORT) || 1337;
 
 // Node will check the public and src views directories before all else...
 app.use(express.static('public'));
-app.use(express.static('src/views'));
+app.set('views', 'src/views');
+
+app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-    res.send('Hello World');
+    res.render('index', {title: 'Hello from render', list: ['a', 'b']})
+});
+
+app.get('/books', function(req, res) {
+    res.send('Hello Books');
 });
 
 app.listen(port, function(err) {
-    console.log('running server on port 1337');
+    console.log('running server on port ' + port);
 });
