@@ -44,7 +44,7 @@ var eventGroup = [
 
 eventGroupRouter.route('/')
     .get(function(req, res) {
-        res.render('eventGroup', {
+        res.render('eventGroupView', {
             title: 'eventGroup',
             nav: [{
                 Link: '/Books',
@@ -57,9 +57,20 @@ eventGroupRouter.route('/')
         });
     });
 
-eventGroupRouter.route('/single')
+eventGroupRouter.route('/:id')
     .get(function(req, res) {
-        res.send('Hello Single Event');
+        var id = req.params.id;
+        res.render('eventSingleView', {
+            title: 'eventSingle',
+            nav: [{
+                Link: '/Books',
+                Text: 'Books'
+            }, {
+                Link: '/Authors',
+                Text: 'Authors'
+            }],
+            eventSingle: eventGroup[id]
+        });
     });
 
 /*
