@@ -1,5 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
+var passport = require('passport');
+var session = require('express-session');
 
 var app = express();
 
@@ -17,14 +20,20 @@ var eventGroupRouter = require('./src/routes/eventGroupRoutes')(nav);
 var adminRouter = require('./src/routes/adminRoutes')(nav);
 var authRouter = require('./src/routes/authRoutes')(nav);
 
+/* Start Middleware */
 // Node will check the public and src views directories before all else...
 app.use(express.static('public'));
-
-// Looks to see if there is a json sent in
-app.use(bodyParser.json());
+app.use(bodyParser.json()); // look for json passed in
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+app.use(cookieParser());
+app.use(session({
+    secret: 'password',
+}));
+
+require('./src/config/passport')(app);
+
 // Set views directory
 app.set('views', 'src/views');
 
