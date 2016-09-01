@@ -30,6 +30,8 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser());
 app.use(session({
     secret: 'password',
+    resave: true,
+    saveUninitialized: true
 }));
 
 require('./src/config/passport')(app);
