@@ -22,7 +22,9 @@ app.use(express.static('public'));
 
 // Looks to see if there is a json sent in
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 // Set views directory
 app.set('views', 'src/views');
 
