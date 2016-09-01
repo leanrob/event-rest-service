@@ -13,7 +13,7 @@ var nav = [{
     Text: 'Authors'
 }];
 
-var eventGroupRouter = require('./src/routes/eventGroupRoutes');
+var eventGroupRouter = require('./src/routes/eventGroupRoutes')(nav);
 var adminRouter = require('./src/routes/adminRoutes')(nav);
 var authRouter = require('./src/routes/authRoutes')(nav);
 

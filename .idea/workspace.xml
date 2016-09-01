@@ -4,6 +4,7 @@
     <list default="true" id="a712d7f3-b936-485e-b5f5-bf0b4fd89a40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/app.js" afterPath="$PROJECT_DIR$/events/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/src/routes/eventGroupRoutes.js" afterPath="$PROJECT_DIR$/events/src/routes/eventGroupRoutes.js" />
     </list>
     <ignored path="event-rest-service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="480">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventGroupRoutes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="eventGroupRoutes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events/src/routes/eventGroupRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="509">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -91,20 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events/public/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events/src/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="1670">
               <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
               <folding />
             </state>
@@ -161,10 +152,10 @@
         <option value="$PROJECT_DIR$/events/src/routes/adminRoutes.js" />
         <option value="$PROJECT_DIR$/events/src/views/eventGroupView.ejs" />
         <option value="$PROJECT_DIR$/events/src/views/eventSingleView.ejs" />
-        <option value="$PROJECT_DIR$/events/src/routes/eventGroupRoutes.js" />
         <option value="$PROJECT_DIR$/events/src/views/index.ejs" />
         <option value="$PROJECT_DIR$/events/src/routes/authRoutes.js" />
         <option value="$PROJECT_DIR$/events/app.js" />
+        <option value="$PROJECT_DIR$/events/src/routes/eventGroupRoutes.js" />
       </list>
     </option>
   </component>
@@ -361,7 +352,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leanrob.github.io" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/nodejs-express-web-applications/6-nodejs-express-web-applications-m6-exercise-files/codeMongo/library" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -455,12 +446,12 @@
       <workItem from="1472278122222" duration="3379000" />
       <workItem from="1472337608368" duration="12820000" />
       <workItem from="1472370599559" duration="164000" />
-      <workItem from="1472539448720" duration="9252000" />
+      <workItem from="1472539448720" duration="10718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32444000" />
+    <option name="totallyTimeSpent" value="33910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="580" y="23" width="860" height="801" extended-state="0" />
@@ -803,6 +794,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/events/src/views/eventSingleView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/events/src/routes/adminRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -811,6 +818,24 @@
             <element signature="e#0#43#0" expanded="false" />
             <element signature="e#179#748#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/src/routes/authRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/src/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1670">
+          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,55 +855,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/src/views/eventSingleView.ejs">
+    <entry file="file://$PROJECT_DIR$/events/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/src/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+        <state relative-caret-position="480">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/events/src/routes/eventGroupRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="509">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/src/routes/authRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
