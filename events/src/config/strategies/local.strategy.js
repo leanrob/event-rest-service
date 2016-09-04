@@ -8,7 +8,7 @@ module.exports = function() {
     function(username, password, done) {
         // This is where we would check the DB for username and password
         var user = {
-            username: username,
+            userName: username,
             password: password
         };
         done(null, user);

@@ -16,6 +16,7 @@ var nav = [{
     Text: 'Authors'
 }];
 
+// Requiring the created routes and passing them nav
 var eventGroupRouter = require('./src/routes/eventGroupRoutes')(nav);
 var adminRouter = require('./src/routes/adminRoutes')(nav);
 var authRouter = require('./src/routes/authRoutes')(nav);
