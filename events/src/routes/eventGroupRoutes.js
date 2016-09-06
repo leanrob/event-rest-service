@@ -13,6 +13,13 @@ var objectId = require('mongodb').ObjectID;
  Events Router Section Begins
  */
 var router = function(nav) {
+    // Check to see if signed in first
+    eventGroupRouter.use(function(req, res, next) {
+        if (!req.user) {
+            res.redirect('/');
+        }
+        next();
+    });
     eventGroupRouter.route('/')
         .get(function (req, res) {
             var url = 'mongodb://localhost:27017/eventsApp';
