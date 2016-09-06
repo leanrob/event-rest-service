@@ -2,6 +2,12 @@ var mongodb = require('mongodb');
 var objectId = require('mongodb').ObjectID;
 
 var eventsController = function(eventService, nav) {
+    var middleware = function(req, res, next) {
+        if (!req.user) {
+            res.redirect('/');
+        }
+        next();
+    };
     var getIndex = function (req, res) {
         var url = 'mongodb://localhost:27017/eventsApp';
 
@@ -34,7 +40,8 @@ var eventsController = function(eventService, nav) {
     };
     return {
         getIndex: getIndex,
-        getById: getById
+        getById: getById,
+        middleware: middleware
     }
 };
 

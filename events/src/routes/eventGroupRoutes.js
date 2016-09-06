@@ -15,12 +15,7 @@ var objectId = require('mongodb').ObjectID;
 var router = function (nav) {
     var eventsController = require('../controllers/eventsController')(null, nav);
     // Check to see if signed in first
-    eventGroupRouter.use(function(req, res, next) {
-        if (!req.user) {
-            res.redirect('/');
-        }
-        next();
-    });
+    eventGroupRouter.use(eventsController.middleware);
     eventGroupRouter.route('/')
         .get(eventsController.getIndex);
 
