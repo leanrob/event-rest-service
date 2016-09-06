@@ -35,6 +35,7 @@ var router = function() {
         }), function(req, res) {
             res.redirect('/auth/profile');
         });
+    // Secured profile route
     authRouter.route('/profile')
         .all(function (req, res, next) {
             if (!req.user) {

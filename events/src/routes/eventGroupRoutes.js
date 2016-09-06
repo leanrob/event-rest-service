@@ -12,7 +12,8 @@ var objectId = require('mongodb').ObjectID;
 /*
  Events Router Section Begins
  */
-var router = function(nav) {
+var router = function (nav) {
+    var eventsController = require('../controllers/eventsController')(null, nav);
     // Check to see if signed in first
     eventGroupRouter.use(function(req, res, next) {
         if (!req.user) {
@@ -21,37 +22,10 @@ var router = function(nav) {
         next();
     });
     eventGroupRouter.route('/')
-        .get(function (req, res) {
-            var url = 'mongodb://localhost:27017/eventsApp';
-
-            mongodb.connect(url, function (err, db) {
-                var collection = db.collection('events');
-                collection.find({}).toArray(function (err, results) {
-                    res.render('eventGroupView', {
-                        title: 'eventGroup',
-                        nav: nav,
-                        eventGroup: results
-                    });
-                })
-            });
-        });
+        .get(eventsController.getIndex);
 
     eventGroupRouter.route('/:id')
-        .get(function (req, res) {
-            var id = new objectId(req.params.id);
-            var url = 'mongodb://localhost:27017/eventsApp';
-
-            mongodb.connect(url, function (err, db) {
-                var collection = db.collection('events');
-                collection.findOne({_id: id}, function (err, results) {
-                    res.render('eventSingleView', {
-                        title: 'eventSingle',
-                        nav: nav,
-                        eventSingle: results
-                    });
-                });
-            });
-        });
+        .get(eventsController.getById);
     return eventGroupRouter;
 };
 /*
